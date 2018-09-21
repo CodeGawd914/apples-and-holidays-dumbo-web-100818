@@ -63,6 +63,7 @@ def all_holidays_with_bbq(holiday_hash)
       if item.include? ("BBQ")
         seasons.push(holiday).flatten
       end
+      end
     end
 end
 
